@@ -73,7 +73,8 @@
 							unlockModal();
 						});					
 					}  	
-					if(options.animation == "none") {
+
+				  if(options.animation == "none") {
 						modal.css({'visibility' : 'hidden', 'top' : topMeasure});
 						modalBG.css({'display' : 'none'});	
 					}		
@@ -117,7 +118,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://goo.gl/D2ArIq' target='_blank'><img src='https://lh3.googleusercontent.com/-uHdSLMSDq2g/WMvjSgH79lI/AAAAAAAAANU/dlKWPJFRUDoaIaOJqd6Fd6PiLMV2IvhQQCL0B/w530-d-h295-p-rw/phoi%2Bcanh.png' width='500px'/><br/>13 Kỹ thuật đẩy top vượt trội</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://goo.gl/D2ArIq' target='_blank'><img src='https://lh3.googleusercontent.com/-uHdSLMSDq2g/WMvjSgH79lI/AAAAAAAAANU/dlKWPJFRUDoaIaOJqd6Fd6PiLMV2IvhQQCL0B/w530-d-h295-p-rw/phoi%2Bcanh.png' width='500px'/><br/>CHUYÊN VIÊN KINH DOANH CHỦ ĐẦU TƯ</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
